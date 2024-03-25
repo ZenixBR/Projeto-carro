@@ -4,11 +4,11 @@ import iconLuxury from './assets/icon-luxury.svg'
 
 export default function App() {
   return (
-    <main className='min-h-svh bg-offwihtebg py-20 px-6'>
-      <section>
+    <main className='min-h-svh bg-offwihtebg py-20 px-6 antialiased lg:flex justify-center items-center'>
+      <section className='lg:flex'>
 
 
-        <div className='bg-orange p-12 rounded-t-lg'>
+        <div className='bg-orange p-12 rounded-t-lg  lg:'>
           <img src={iconSedans} alt="ícone dos carros sedans" className='mb-7' />
           <h2 className='font-shoulders font-bold uppercase text-4xl text-offwhitebg mb-7'>Sedans</h2>
           <p className='font-lexend text-offwhite mb-7'>Escolha um sedan pelo seu preço acessível e excelente economia de combustível. Ideal para dirigir na cidade ou na sua próxima viagem</p>
